@@ -1,0 +1,28 @@
+package aula3003;
+
+import java.util.GregorianCalendar;
+import java.util.Calendar;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Data {
+
+	/*
+	 * 1 - Construir um programa para mostrar a data do sistema escrita por extenso
+	 * usando as classes discutidas e testando as demais formas, como por exemplo:
+	 * Hoje é quinta-feira, dia 30 de março de 2023 e agora são 20 horas e 32
+	 * minutos. Deve ser construída uma classe e um método para retornar a data
+	 * nesse formato.
+	 * 
+	 */
+
+	public static void main(String[] args) {
+
+		GregorianCalendar gc = new GregorianCalendar();
+		int dia = gc.get(Calendar.DAY_OF_WEEK);
+
+		System.out.println("Hoje é "+dia +" dia X de X de X e agora são X horas e X minutos" );
+
+	}
+
+}

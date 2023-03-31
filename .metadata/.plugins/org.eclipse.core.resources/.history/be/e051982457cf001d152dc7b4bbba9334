@@ -1,0 +1,18 @@
+package aula3003;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Data {
+
+	public static void main(String[] args) {
+
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+
+		Date hoje = new Date();
+		String s = sdf.format(hoje);
+		System.out.println(s);
+
+	}
+
+}
