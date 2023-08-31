@@ -1,12 +1,8 @@
-	// Com retorno (int)
-	public static int somar(int n1, int n2) {
-		int soma = 0;
-		soma = n1 + n2;
-		return soma;
-	}
-
-	// Sem retorno (void)
-	public static void diminuir(int n1, int n2) {
-		int dif = 0;
-		dif = n1 - n2;
-		System.out.println("a diferença é " + dif);
+import javax.swing.JOptionPane;
+public class HomeOffice {
+public static void main(String[] args) {
+float valorFloat = Float.parseFloat(JOptionPane.showInputDialog("Informe um valor float: "));
+int valorInt = Integer.parseInt(JOptionPane.showInputDialog("Informe um valor int: "));
+float result = (float) valorFloat * valorInt;
+JOptionPane.showMessageDialog(null, "O resultado é " + String.format("%.2f.", result));}
+}

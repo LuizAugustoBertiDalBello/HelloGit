@@ -6,9 +6,13 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value="nextInt"/>
 		<list key="findhistory">
+			<item value="nextDouble"/>
 		</list>
 		<list key="replacehistory">
+			<item value="nextInt"/>
+			<item value="next"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
